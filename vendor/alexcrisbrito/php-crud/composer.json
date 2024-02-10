@@ -1,0 +1,34 @@
+{
+  "name": "alexcrisbrito/php-crud",
+  "description": "The php-crud is an abstraction component for your database that uses PDO and prepared statements for performing operations such as saving, retrieving, updating and deleting data.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "version": "v1.0.0",
+  "keywords": [
+    "PDO",
+    "CRUD",
+    "Model",
+    "Abstraction",
+    "php-crud",
+    "database",
+    "mysql"
+  ],
+  "homepage": "https://github.com/alexcrisbrito/phpcrud",
+  "authors": [
+    {
+      "name": "Alexandre Brito",
+      "email": "abrito@nextgenit-mz.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alexcrisbrito\\Php_crud\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-mbstring": "*"
+  }
+}
